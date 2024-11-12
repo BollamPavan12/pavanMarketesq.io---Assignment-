@@ -1,0 +1,106 @@
+/* src/components/BookingForm.css */
+
+.booking-form {
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.booking-form input {
+  width: 80%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.booking-form button {
+  width: 80%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background-color: #357ab7;
+}
+
+.person-category {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.person-category div {
+  width: 45%;
+}
+
+.person-category input {
+  width: 100%;
+}
+
+.confirmation-card {
+  background-color: #f7f7f7;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.confirmation-header h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.confirmation-body {
+  font-size: 1rem;
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.info-section .icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #4a90e2;
+}
+
+.info-section p {
+  margin: 0;
+}
+
+.info-section strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.confirmation-card p.check-in {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f5a623;
+}
+
+.confirmation-card p.check-out {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f5a623;
+}
+
+.confirmation-card p.total-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f5a623;
+}
